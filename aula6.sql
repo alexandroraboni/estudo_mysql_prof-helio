@@ -66,3 +66,4 @@ CREATE TABLE item_caixa(
     CONSTRAINT pk_item_caixa PRIMARY KEY(id),
     CONSTRAINT fk_item_caixa_caixa_id FOREIGN KEY(caixa_id) REFERENCES caixa(id)
 );
+
